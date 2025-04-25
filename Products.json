@@ -1,0 +1,114 @@
+{
+    "Processors": {
+        "1" : {
+        "Name": "Intel i3 8th Gen",
+        "Price": 100,
+        "Image": "./Images/Products/Processors/I3 8th Gen.jpg",
+        "Description": "With speeds of upto 3 ghz and 2 cores!"
+        },
+        "2" : {
+        "Name": "Intel i5 8th Gen",
+        "Price": 500,
+        "Image": "./Images/Products/Processors/I5 8th Gen.jpg",
+        "Description": "This processor may be small in size but it can perform bllions of tasks per second!"
+        },
+        "3" : {
+        "Name": "Intel i7 8th Gen",
+        "Price": 2500,
+        "Image": "./Images/Products/Processors/I7 8th Gen.png",
+        "Description": "There are so many numbers, according to some people 7 is a lucky number!"
+        },
+        "4" : {
+        "Name": "Intel i9 8th Gen",
+        "Price": 10000,
+        "Image": "./Images/Products/Processors/I9 8th Gen.jpg",
+        "Description": "What on earth are you buying this for?! i7 wasn't fast enough?!"
+        },
+        "5" : {
+        "Name": "Ryzen 3",
+        "Price": 200,
+        "Image": "./Images/Products/Processors/ryzen 3.jpg",
+        "Description": "Ryzen is a completely different brand from intel but is better!"
+        },
+        "6" : {
+        "Name": "Ryzen 5",
+        "Price": 800,
+        "Image": "./Images/Products/Processors/ryzen 5.jpg",
+        "Description": "Whats with processors and odd numbers..."
+        },
+        "7" : {
+        "Name": "Ryzen 7",
+        "Price": 2500,
+        "Image": "./Images/Products/Processors/ryzen 7.jpg",
+        "Description": "There's a rumor that the guy in the picture dropped the processor, it's just a rumor!"
+        },
+        "8" : {
+        "Name": "Ryzen 9",
+        "Price": 5000,
+        "Image": "./Images/Products/Processors/ryzen 9.png",
+        "Description": "These processors just keep getting faster and more powerful yet they seem to grow smaller, you can't even see it in this picture!"
+        }
+    },
+    "Graphics Cards": {
+        "1" : {
+        "Name": "Broken graphics card",
+        "Price": 666,
+        "Image": "./Images/Products/Graphics Cards/Broken Graphics Card.jpg",
+        "Description": "Rumor has it that if you use this you'll gain the ability to break games!"
+        },
+        "2" : {
+        "Name": "NVDIA Something",
+        "Price": 1000,
+        "Image": "./Images/Products/Graphics Cards/Nvidia Something.jpg",
+        "Description": "Best brand for graphics cards, they are the most populest option!"
+        }
+    },
+    "Motherboards": {
+        "1" : {
+        "Name": "Asus motherboard",
+        "Price": 100,
+        "Image": "./Images/Chair.jpg",
+        "Description": "I think this exists no research done yet!"
+        },
+        "2" : {
+        "Name": "Gaming Motherboard",
+        "Price": 100,
+        "Image": "./Images/Chair.jpg",
+        "Description": "Place upto 4 RAM Sticks and 2 internal storage devices!"
+        }
+    },
+    "Memory(RAM)": {
+        "1" : {
+        "Name": "4GB DDR4 RAM",
+        "Price": 100,
+        "Image": "./Images/Chair.jpg",
+        "Description": "4 gb of ram thats 4 billion bytes!"
+        },
+        "2" : {
+        "Name": "16 GB DDR5 RAM",
+        "Price": 100,
+        "Image": "./Images/Chair.jpg",
+        "Description": "Awesome this is the 2nd highest RAM stroage you could buy!"
+        }
+    },
+    "Storage Devices": {
+        "1" : {
+        "Name": "1 TB Hard Disk Drive",
+        "Price": 100,
+        "Image": "./Images/Chair.jpg",
+        "Description": "You must be crazy to need this much storage!"
+        },
+        "2" : {
+        "Name": "100TB SSD",
+        "Price": 100,
+        "Image": "./Images/Chair.jpg",
+        "Description": "Only bussiness owners buy this amount of storage!"
+        },
+       "3" : {
+        "Name": "10GB USB Stick",
+        "Price": 100,
+        "Image": "./Images/Chair.jpg",
+        "Description": "A storage device that is so portable you can just put this in your pocket!"
+        } 
+    }
+}

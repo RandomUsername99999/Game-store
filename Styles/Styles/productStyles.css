@@ -1,0 +1,226 @@
+*{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+h2{
+    font-size: 50px;
+}
+
+.ProductsFrame{
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    overflow: hidden;
+}
+
+.Product{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 23%;
+    height: 400px;
+    margin: 1%;
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.2s linear;
+    *{
+        background-color: transparent;
+        margin: 0%;
+        color: black;
+        overflow: hidden;
+    }
+    .Title{
+        height: 15%;
+        line-height: 200%;
+        font-size: 200%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .Image{
+        height: 50%;
+        width: 90%;
+    }
+    .Description{
+        height: 25%;
+        width: 90%;
+        font-size: 100%;
+    }
+    .Button{
+        height: 10%;
+        width: 100%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: rgb(88, 255, 205);
+        font-size: 200%;
+        border-width: 0px;
+        cursor: pointer;
+    }
+    .Button:hover{
+        background-color: rgb(0, 89, 255);
+        color: rgb(255, 0, 0);
+    }
+    .CartTag{
+        position: relative;
+        top: -65%;
+        left: -35%;
+        font-size: 200%;
+        rotate: -35deg;
+        background-color: transparent;
+        z-index: 15;
+        -webkit-text-stroke: 2px rgb(43, 255, 0);
+        transition: all 0.2s linear;
+        color: rgb(0, 0, 0);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .Remove{
+        position: relative;
+        top: -75%;
+        right: -40%;
+        font-size: 400%;
+        rotate: 35deg;
+        background-color: transparent;
+        z-index: 15;
+        -webkit-text-stroke: 2px rgb(255, 0, 0);
+        transition: all 0.2s linear;
+        color: rgb(0, 0, 0);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .Remove:hover{
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+        color: red;
+    }
+    .PriceTag{
+        display: flex;
+        flex-direction: row;
+        *{
+            width: 25%;
+            padding: 0px;
+        }
+    }
+}
+
+.Product:hover{
+    transform: scale(0.975);
+}
+
+.Favourite{
+    background-color: red;
+}
+
+#Cart{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    img{
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: multiply;
+    }
+    #Label{
+        position: absolute;
+        top: -20%;
+        left: 45%;
+        font-size: 200%;
+        rotate: 325deg;
+        background-color: transparent;
+        z-index: 20;
+        -webkit-text-stroke: 2px white;
+        transition: all 0.2s linear;
+        color: rgb(0, 0, 0);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+#Cart:hover{
+    background-color: rgb(64, 230, 166);
+    cursor: pointer;
+    #Label{
+        -webkit-text-stroke: 2px rgb(64, 230, 166);
+        rotate: 720deg;
+        scale: 1.4;
+    }
+}
+
+#DisplayCart{
+    visibility: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 20;
+    background-color: black;
+    align-items: center;
+    table{
+        border: 2px solid white;
+        width: 100%;
+    }
+    th{
+        border: 2px solid white;
+        font-size: x-large;
+    }
+    td{
+        text-align: center;
+        border: 1px solid wheat;
+    }
+
+    button{
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        color: black;
+        font-size: 100%;
+    }
+}
+
+#CloseCart{
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    width: 100px;
+    height: 40px;
+    font-size: 200%;
+    background-color: red;
+    text-align: center;
+}
+
+#CloseCart:hover{
+    background-color: white;
+    color: red;
+}
+
+@media screen and (max-width: 700px) {
+    .Product{
+        width: 45%;
+    }
+    .ProductsFrame{
+        align-items: center;
+    }
+  }
+
+  .form{
+    width: 100%;
+    *{
+        font-size: 50px;
+    }
+    input{
+        background-color: aliceblue;
+        color: black;
+    }
+    button{
+        width: 400px;
+        height: 400px;
+    }
+  }

@@ -1,0 +1,304 @@
+
+body{
+    background-color: black;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-items: center;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    width: 90%;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 90%;
+    text-decoration: underline;
+}
+
+table{
+    width: 100%;
+}
+th{
+    border: 3px solid;
+    border-color: aliceblue;
+    height: 2em;
+    font-size: 2em;
+}
+td{
+    border: 1px solid;
+    border-color: aliceblue;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    width: 100%;
+
+}
+
+li{
+    font-size: 50px;
+}
+    
+img{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    align-content: center;
+
+}
+
+header{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: aliceblue;
+    
+    img{
+        height: 60px;
+        width: 10%;
+    }
+
+    h1{
+       margin: 0;
+       text-align: center;
+       text-decoration: none;
+       width: 90%;
+       justify-content: flex-start;
+       -webkit-text-stroke: black;
+       -webkit-text-stroke-width: 2px;
+    }
+}
+nav{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    justify-content: space-around;
+    word-wrap: break-word;
+    a:hover{
+        color: aliceblue;
+        background-color: black;
+        opacity: 50%;
+    }
+    a{
+        background-color: aliceblue;
+        text-align: center;
+        font-size: 80%;
+        font-family: fantasy;
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
+    #Selected{
+        background-color: rgb(4, 4, 5);
+        color: rgb(255, 242, 242);
+        border-color: rgb(118, 191, 255);
+        border-style: solid;
+        border-width: 2px;
+    }
+    /* This is for the current page thats opened */
+}
+
+.Grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* Equal width for image and paragraph */
+    gap: 10px;
+    div{
+        p{
+            font-size: 35px;
+        }
+    }
+}
+
+.Flexbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+   
+    
+}
+.GameLabel{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    div p{
+        opacity: 0;
+    }
+    img:hover{
+        ~div p{
+            opacity: 1;
+        }
+        /* Text visible when image is hovered */
+    }
+}
+
+#MapLabel{
+    display: grid;
+    grid-template-columns: auto;
+    div iframe{
+        width: 100%;
+    }
+}
+
+.HoverImage{
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 243);
+    }
+    p{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        top: 20%;
+        font-size: 100%;
+        opacity: 0;
+        -webkit-text-stroke: black;
+        -webkit-text-stroke-width: 1px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .GamesPara{
+        position: static;
+    }
+}
+.HoverImage img:hover{
+    ~ p{
+        opacity: 1;
+        transition: opacity 1s;
+    }
+}
+.HoverImage p:hover{
+    opacity: 1;
+    transition: opacity 1s;
+}
+.HoverImage .GamesPara:hover{
+    opacity: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    li{
+        text-align: left;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.MainImage{
+    width: 100%;
+    height: 20em;
+    background-color: black;
+}
+
+section{
+    width: 100%;
+    justify-items: center;
+}
+
+footer{
+    background-color: aliceblue;
+    width: 100%;
+    color: black;
+    text-decoration: wavy;
+    text-align: center;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+form{
+    background-color: rgb(121, 120, 120);
+    font-size: 25px;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    label{
+        width: 20%;
+    }
+    input{
+        margin: 10px;
+        width: 80%;
+    }
+    #Enter{
+        position: relative;
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+        font-size: 100%;
+        width: 100%;
+        height: 35px;
+        bottom: 0%;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+    }
+    #Enter:hover{
+        background-color: aliceblue;
+        color: black;
+        border: 0px;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    p{
+        font-size: xx-large;
+    }
+    nav{
+        top: 0;
+        height: 40px;
+        font-size: 150%;
+    }
+    body{
+        margin-top: 70px;
+    }
+    .Grid{
+        grid-template-columns: auto auto auto auto;
+        /* 4 images can be placed on bigger screens */
+        div p{
+            top: 20%;
+            font-size: 50px;
+        }
+    }
+    .Flexbox{
+        div{
+            width: 24%;
+            p{
+                top: 20%;
+                font-size: 50px;
+            }
+        }
+    }
+    .HoverImage p{
+        top: 30%;
+        -webkit-text-stroke-width: 3px;
+    }
+    #MapLabel{
+        grid-template-columns: 75% 25%;
+    }
+    form{
+        width: 60%;
+    }
+}

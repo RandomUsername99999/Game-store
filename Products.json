@@ -61,54 +61,132 @@
         "Price": 1000,
         "Image": "./Images/Products/Graphics Cards/Nvidia Something.jpg",
         "Description": "Best brand for graphics cards, they are the most populest option!"
+        },
+        "3" : {
+        "Name": "Geforce 4090",
+        "Price": 10300,
+        "Image": "./Images/Products/Graphics Cards/Geforce 4090.jpg",
+        "Description": "Best brand for graphics cards, they are the most populest option!"
+        },
+        "4" : {
+        "Name": "RTX 2070",
+        "Price": 10010,
+        "Image": "./Images/Products/Graphics Cards/RTX 2070.jpg",
+        "Description": "Best brand for graphics cards, they are the most populest option!"
+        },
+        "5" : {
+        "Name": "Graphics CARD 10",
+        "Price": 3000,
+        "Image": "./Images/Products/Graphics Cards/graphics Card 10.jpg",
+        "Description": "Best brand for graphics cards, they are the most populest option!"
+        },
+        "6" : {
+        "Name": "NVDIA 209010",
+        "Price": 12000,
+        "Image": "./Images/Products/Graphics Cards/Red Graphics.jpg",
+        "Description": "Best brand for graphics cards, they are the most populest option!"
         }
     },
     "Motherboards": {
         "1" : {
         "Name": "Asus motherboard",
         "Price": 100,
-        "Image": "./Images/Chair.jpg",
-        "Description": "I think this exists no research done yet!"
+        "Image": "./Images/Products/Motherboards/Asus.jpg",
+        "Description": "Stores upto 1 processor, 4 RAMS and 2 SSDs!"
         },
         "2" : {
         "Name": "Gaming Motherboard",
         "Price": 100,
-        "Image": "./Images/Chair.jpg",
+        "Image": "./Images/Products/Motherboards/Gaming.jpg",
         "Description": "Place upto 4 RAM Sticks and 2 internal storage devices!"
+        },
+        "3" : {
+        "Name": "Floating Motherboard",
+        "Price": 2121000,
+        "Image": "./Images/Products/Motherboards/Floating Motherboard.jpg",
+        "Description": "Make your computer float with the latest floating motherboard!"
+        },
+        "4" : {
+        "Name": "Pc Motherboard",
+        "Price": 7400,
+        "Image": "./Images/Products/Motherboards/Asus.jpg",
+        "Description": "Best motherboard for computers"
+        },
+        "5" : {
+        "Name": "Glowing Motherboard",
+        "Price": 132000,
+        "Image": "./Images/Products/Motherboards/Glowing Motherboard.jpg",
+        "Description": "With its custom glow effect!"
+        },
+        "6" : {
+        "Name": "MSI motherboard",
+        "Price": 932000,
+        "Image": "./Images/Products/Motherboards/MSI.jpg",
+        "Description": "The final motherboard of the year!"
         }
     },
     "Memory(RAM)": {
         "1" : {
         "Name": "4GB DDR4 RAM",
         "Price": 100,
-        "Image": "./Images/Chair.jpg",
+        "Image": "./Images/Products/Memory/4GB RAM.jpg",
         "Description": "4 gb of ram thats 4 billion bytes!"
         },
         "2" : {
         "Name": "16 GB DDR5 RAM",
-        "Price": 100,
-        "Image": "./Images/Chair.jpg",
+        "Price": 1004,
+        "Image": "./Images/Products/Memory/4GB DDR5 RAM.jpg",
         "Description": "Awesome this is the 2nd highest RAM stroage you could buy!"
+        },
+        "3" : {
+        "Name": "32 GB DDR2 RAM",
+        "Price": 1000,
+        "Image": "./Images/Products/Memory/32 GB DDR2 RAM.jpg",
+        "Description": "Tons of storage but ddr2 is slow!"
+        },
+        "4" : {
+        "Name": "64 GB DDR4 RAM",
+        "Price": 10000,
+        "Image": "./Images/Products/Memory/64 GB DDR4 RAM.jpg",
+        "Description": "64 GB for RAM, thats a lot!"
         }
     },
     "Storage Devices": {
         "1" : {
         "Name": "1 TB Hard Disk Drive",
         "Price": 100,
-        "Image": "./Images/Chair.jpg",
+        "Image": "./Images/Products/Storage Devices/1TB HDD.jpg",
         "Description": "You must be crazy to need this much storage!"
         },
         "2" : {
         "Name": "100TB SSD",
-        "Price": 100,
-        "Image": "./Images/Chair.jpg",
+        "Price": 1009999,
+        "Image": "./Images/Products/Storage Devices/100TB SSD.jpg",
         "Description": "Only bussiness owners buy this amount of storage!"
         },
        "3" : {
         "Name": "10GB USB Stick",
-        "Price": 100,
-        "Image": "./Images/Chair.jpg",
+        "Price": 6100,
+        "Image": "./Images/Products/Storage Devices/10GB USB.jpg",
         "Description": "A storage device that is so portable you can just put this in your pocket!"
-        } 
+        },
+        "4" : {
+        "Name": "500 GB SSD",
+        "Price": 13000,
+        "Image": "./Images/Products/Storage Devices/500gb SSD.jpg",
+        "Description": "A good amount of storage!"
+        },
+        "5" : {
+        "Name": "1TB USB",
+        "Price": 1005550,
+        "Image": "./Images/Products/Storage Devices/1TB HDD.jpg",
+        "Description": "Too much storage for a pendrive!"
+        },
+        "6" : {
+        "Name": "100GB HDD",
+        "Price": 51000,
+        "Image": "./Images/Products/Storage Devices/100GB HDD.jpg",
+        "Description": "This might not be enough storage for computers these days"
+        }
     }
 }
